@@ -63,24 +63,27 @@ while (heroHealth > 0 && monsterHealth > 0)
  heroAttack = attack;
  Console.WriteLine($"The hero did {heroAttack} in damage!");
  monsterHealth = monsterHealth - heroAttack;
+ if (monsterHealth <= 0)
+ {
+  break;
+  Console.WriteLine("The monster has perished.");
+ }
+
  Console.WriteLine($"The monster has {monsterHealth} points left.");
  Console.WriteLine("");
  // Monster
  monsterAttack = attack;
  Console.WriteLine($"The monster did {monsterAttack} in damage!");
  heroHealth = heroHealth - monsterAttack;
- Console.WriteLine($"The hero has {heroHealth} points left.");
- Console.WriteLine("");
- 
- if (monsterHealth <= 0)
+ if (heroHealth <= 0)
  {
-  Console.WriteLine("The monster has perished.");
- }
- else if (heroHealth <= 0)
- {
+  break;
   Console.WriteLine("The hero has perished.");
  }
-}
 
+ Console.WriteLine($"The hero has {heroHealth} points left.");
+ Console.WriteLine("");
+
+}
 
 
