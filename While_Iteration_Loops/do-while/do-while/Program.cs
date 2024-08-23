@@ -60,25 +60,25 @@ int attack = attackPts.Next(1, 11);
 while (heroHealth > 0 && monsterHealth > 0)
 {
  // Hero
- heroAttack = attack;
+ heroAttack = attackPts.Next(1, 11);
  Console.WriteLine($"The hero did {heroAttack} in damage!");
  monsterHealth = monsterHealth - heroAttack;
  if (monsterHealth <= 0)
  {
-  break;
   Console.WriteLine("The monster has perished.");
+  break;
  }
 
  Console.WriteLine($"The monster has {monsterHealth} points left.");
  Console.WriteLine("");
  // Monster
- monsterAttack = attack;
+ monsterAttack = attackPts.Next(1, 11);
  Console.WriteLine($"The monster did {monsterAttack} in damage!");
  heroHealth = heroHealth - monsterAttack;
  if (heroHealth <= 0)
  {
-  break;
   Console.WriteLine("The hero has perished.");
+  break;
  }
 
  Console.WriteLine($"The hero has {heroHealth} points left.");
