@@ -6,12 +6,25 @@
 */
 
 // Write a do-while statement to break when a certain random number is generated
-Random random = new Random();
-int current = 0;
+Random randomOne = new Random();
+int currentOne = 0;
 
 do
 {
- current = random.Next(1, 11);
- Console.WriteLine(current);
+ currentOne = randomOne.Next(1, 11);
+ Console.WriteLine(currentOne);
 
-} while (current != 7);
+} while (currentOne != 7);
+Console.WriteLine("End of example One\n\n");
+
+// Write a while statement that iterates only
+// while a random number is greater than some value
+Random randomTwo = new Random();
+int currentTwo = randomTwo.Next(1, 11);
+
+while (currentTwo >= 3)
+{
+ Console.WriteLine(currentTwo);
+ currentTwo = randomTwo.Next(1, 11);
+}
+Console.WriteLine($"Last number: {currentTwo}");
