@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C_Sharp\\CSharp-Dump\\While_Iteration_Loops\\do-while\\do-while\\do-while.csproj",
-      "projectName": "do-while",
-      "projectPath": "C:\\C_Sharp\\CSharp-Dump\\While_Iteration_Loops\\do-while\\do-while\\do-while.csproj",
+      "projectUniqueName": "C:\\C_Sharp\\CSharp-Dump\\do_vs_while\\Challenge_Exercise\\Challenge_Exercise.csproj",
+      "projectName": "Challenge_Exercise",
+      "projectPath": "C:\\C_Sharp\\CSharp-Dump\\do_vs_while\\Challenge_Exercise\\Challenge_Exercise.csproj",
       "packagesPath": "C:\\Users\\yatesbra\\.nuget\\packages\\",
-      "outputPath": "C:\\C_Sharp\\CSharp-Dump\\While_Iteration_Loops\\do-while\\do-while\\obj\\",
+      "outputPath": "C:\\C_Sharp\\CSharp-Dump\\do_vs_while\\Challenge_Exercise\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yatesbra\\AppData\\Roaming\\NuGet\\NuGet.Config"

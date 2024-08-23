@@ -1,0 +1,15 @@
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\bin\Debug\net8.0\Challenge_Exercise.exe
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\bin\Debug\net8.0\Challenge_Exercise.deps.json
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\bin\Debug\net8.0\Challenge_Exercise.runtimeconfig.json
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\bin\Debug\net8.0\Challenge_Exercise.dll
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\bin\Debug\net8.0\Challenge_Exercise.pdb
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.AssemblyInfoInputs.cache
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.AssemblyInfo.cs
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.csproj.CoreCompileInputs.cache
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.sourcelink.json
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.dll
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\refint\Challenge_Exercise.dll
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.pdb
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\Challenge_Exercise.genruntimeconfig.cache
+C:\C_Sharp\CSharp-Dump\do_vs_while\Challenge_Exercise\obj\Debug\net8.0\ref\Challenge_Exercise.dll

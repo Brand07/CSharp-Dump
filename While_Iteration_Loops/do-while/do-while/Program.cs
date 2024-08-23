@@ -83,7 +83,6 @@ while (heroHealth > 0 && monsterHealth > 0)
 
  Console.WriteLine($"The hero has {heroHealth} points left.");
  Console.WriteLine("");
-
 }
 
 

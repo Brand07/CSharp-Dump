@@ -7,3 +7,8 @@
 // Manage user input
 // nullable type string
 string? readResult;
+Console.WriteLine("Enter a string: ");
+do
+{
+ readResult = Console.ReadLine();
+} while (readResult == null);
