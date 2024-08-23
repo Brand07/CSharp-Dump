@@ -49,4 +49,9 @@ Console.WriteLine("End of example three\n\n");
 // Initialize the Hero and Monster HP.
 int heroHealth = 10;
 int monsterHealth = 10;
+// Random attack points
+Random attack = new Random();
+int attackPts = attack.Next(1, 11);
+
+
 
