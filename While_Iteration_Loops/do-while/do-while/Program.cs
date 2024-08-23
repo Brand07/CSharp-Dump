@@ -45,3 +45,8 @@ do
 } while (currentThree != 7);
 Console.WriteLine("End of example three\n\n");
 
+// Code Challenge - Role Playing game battle challenge
+// Initialize the Hero and Monster HP.
+int heroHealth = 10;
+int monsterHealth = 10;
+
