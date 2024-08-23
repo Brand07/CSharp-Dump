@@ -49,9 +49,25 @@ Console.WriteLine("End of example three\n\n");
 // Initialize the Hero and Monster HP.
 int heroHealth = 10;
 int monsterHealth = 10;
+// Init Hero and Monster attack points
+int heroAttack = 0;
+int monsterAttack = 0;
+
 // Random attack points
-Random attack = new Random();
-int attackPts = attack.Next(1, 11);
+Random attackPts = new Random();
+int attack = attackPts.Next(1, 11);
+
+while (heroHealth > 0 && monsterHealth > 0)
+{
+ heroAttack = attack;
+ Console.WriteLine($"The hero did {heroAttack} in damage!");
+ monsterHealth = monsterHealth - heroAttack;
+ Console.WriteLine($"The monster has {monsterHealth} points left.");
+ if (monsterHealth <= 0)
+ {
+  Console.WriteLine("The monster has perished.");
+ }
+}
 
 
 
