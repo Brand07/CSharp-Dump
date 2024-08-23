@@ -7,8 +7,23 @@
 // Manage user input
 // nullable type string
 string? readResult;
-Console.WriteLine("Enter a string: ");
+bool validEntry = false;
+Console.WriteLine("Enter a string containing at least three characters:");
 do
 {
  readResult = Console.ReadLine();
-} while (readResult == null);
+ if (readResult != null)
+ {
+  if (readResult.Length >= 3)
+  {
+   validEntry = true;
+  }
+  else
+  {
+   Console.WriteLine("Your input is invalid, please try again.");
+  }
+ }
+} while (validEntry == false);
+
+// Challenge Project
+// https://learn.microsoft.com/en-us/training/modules/csharp-do-while/5-exercise-challenge-differentiate-while-do-statements
