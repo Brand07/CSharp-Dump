@@ -52,3 +52,24 @@ do
   Console.WriteLine("Please enter a valid integer.");
  }
 } while (validNumber == false);
+
+// Challenge Project 2 - Write code that validates string input
+string? userInput;
+bool validString = false;
+Console.WriteLine("Enter your role name (Administrator, Manager, or User.):");
+do
+{
+ userInput = Console.ReadLine();
+ if (userInput != null)
+ {
+  if (userInput.ToLower() == "administrator" || userInput.ToLower() == "manager" || userInput.ToLower() == "user")
+  {
+   validString = true;
+   Console.WriteLine($"Your role of {userInput} is valid.");
+  }
+  else
+  {
+   Console.WriteLine("Sorry, you entered an invalid role name.");
+  }
+ }
+} while (validString == false);
